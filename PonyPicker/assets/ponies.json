@@ -1,0 +1,56 @@
+[
+  {
+    "Name": "Twilight Sparkle",
+    "Saying": "B O O K S",
+    "Picture": "..\\..\\assets\\twilight.png",
+    "BackgroundColor": "Purple"
+  },
+  {
+    "Name": "Diamond Tiara",
+    "Saying": "You don't have a cutie mark",
+    "Picture": "..\\..\\assets\\diamond.jpg",
+    "BackgroundColor": "Purple"
+  },
+  {
+    "Name": "Scootaloo",
+    "Saying": "AWSOMENESS",
+    "Picture": "..\\..\\assets\\scootaloo.png",
+    "BackgroundColor": "DarkOrange"
+  },
+  {
+    "Name": "Sweety Bell",
+    "Saying": "PRETTY",
+    "Picture": "..\\..\\assets\\sweety.png",
+    "BackgroundColor": "LightPink"
+  },
+  {
+    "Name": "Apple Bloom",
+    "Saying": "YEEHAW",
+    "Picture": "..\\..\\assets\\apple.gif",
+    "BackgroundColor": "Goldenrod"
+  },
+  {
+    "Name": "Baba Seed",
+    "Saying": "That's not how you talk to my friends.",
+    "Picture": "..\\..\\assets\\baba.jpg",
+    "BackgroundColor": "Black"
+  },
+  {
+    "Name": "Rarity",
+    "Saying": "STYLE",
+    "Picture": "..\\..\\assets\\rarity.png",
+    "BackgroundColor": "Gray"
+  },
+  {
+    "Name": "Pinkie Pie",
+    "Saying": "Party Time!",
+    "Picture": "..\\..\\assets\\pinkie.png",
+    "BackgroundColor": "HotPink"
+  },
+  {
+    "Name": "Rainbow Dash",
+    "Saying": "Radicalness!",
+    "Picture": "..\\..\\assets\\dash.png",
+    "BackgroundColor": "DarkRed"
+  }
+]

@@ -13,6 +13,13 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
 
+            foreach (var pony in PonyManager.GetAll())
+            {
+                this.comboBox1.Items.Add(pony.Name);
+            }
+            
+
+
             var items = new List<KeyValuePair<string, string>>();
             foreach (var item in this.comboBox1.Items)
             {
@@ -22,6 +29,7 @@ namespace WindowsFormsApplication1
 
             foreach (var item in items.OrderBy(i => i.Value))
                 this.comboBox1.Items.Add(item.Value);
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

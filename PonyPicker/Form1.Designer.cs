@@ -76,19 +76,6 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Scootaloo",
-            "Sweety Bell",
-            "Apple Bloom",
-            "Baba Seed",
-            "Rarity",
-            "Twilight Sparkle",
-            "Diamond Tiara",
-            "Pinkie Pie",
-            "Minty",
-            "Rainbow Dash",
-            "Big Macintosh",
-            "Shining Armor"});
             this.comboBox1.Location = new System.Drawing.Point(12, 29);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(213, 21);
