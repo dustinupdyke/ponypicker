@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using Newtonsoft.Json;
 
-namespace WindowsFormsApplication1
+namespace ThePonyPicker
 {
     public class Ponies : List<Pony> { }
 

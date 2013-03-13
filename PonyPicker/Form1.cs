@@ -5,7 +5,7 @@ using System.Media;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace ThePonyPicker
 {
     public partial class Form1 : Form
     {
@@ -13,12 +13,17 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
 
+
+            LoadPonies();
+        }
+
+        private void LoadPonies()
+        {
+            this.comboBox1.Items.Clear();
             foreach (var pony in PonyManager.GetAll())
             {
                 this.comboBox1.Items.Add(pony.Name);
             }
-            
-
 
             var items = new List<KeyValuePair<string, string>>();
             foreach (var item in this.comboBox1.Items)
@@ -30,6 +35,7 @@ namespace WindowsFormsApplication1
             foreach (var item in items.OrderBy(i => i.Value))
                 this.comboBox1.Items.Add(item.Value);
 
+            this.comboBox1.Focus();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -44,57 +50,25 @@ namespace WindowsFormsApplication1
 
         private void PickPony()
         {
-            switch (this.comboBox1.SelectedItem.ToString())
-            {
-                case "Twilight Sparkle":
-                    this.saying.Text = "B O O K S";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\twilight.png";
-                    this.BackColor = Color.Purple;
-                    break;
-                case "Diamond Tiara":
-                    this.saying.Text = "You don't have a cutie mark";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\diamond.jpg";
-                    this.BackColor = Color.Purple;
-                    break;
+            if (this.comboBox1.SelectedItem == null)
+                return;
 
-                case "Scootaloo":
-                    this.saying.Text = "AWSOMENESS";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\scootaloo.png";
-                    this.BackColor = Color.DarkOrange;
-                    break;
-                case "Sweety Bell":
-                    this.saying.Text = "PRETTY";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\sweety.png";
-                    this.BackColor = Color.LightPink;
-                    break;
-                case "Apple Bloom":
-                    this.saying.Text = "YEEHAW";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\apple.gif";
-                    this.BackColor = Color.Goldenrod;
-                    break;
+            var pony = PonyManager.GetByName(this.comboBox1.SelectedItem.ToString());
+            if (pony == null)
+                return;
 
-                case "Baba Seed":
-                    this.saying.Text = "That's not how you talk to my friends.";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\baba.jpg";
-                    this.BackColor = Color.Black;
-                    break;
-                case "Rarity":
-                    this.saying.Text = "STYLE";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\rarity.png";
-                    this.BackColor = Color.Gray;
-                    break;
-                case "Pinkie Pie":
-                    this.saying.Text = "Party Time!";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\pinkie.png";
-                    this.BackColor = Color.HotPink;
-                    break;
-                case "Rainbow Dash":
-                    this.saying.Text = "Radicalness!";
-                    this.pictureBox1.ImageLocation = @"..\..\assets\dash.png";
-                    this.BackColor = Color.DarkRed;
-                    break;
-            }
+            this.saying.Text = pony.Saying;
+            this.BackColor = pony.BackgroundColor;
+            this.pictureBox1.ImageLocation = pony.Picture;
+
             SystemSounds.Asterisk.Play();
+            LoadPonies();
+
+            if (this.BackColor == Color.Black)
+                this.label1.ForeColor = Color.White;
+            else
+                this.label1.ForeColor = Color.Black;
+            this.saying.ForeColor = this.label1.ForeColor;
         }
     }
 }

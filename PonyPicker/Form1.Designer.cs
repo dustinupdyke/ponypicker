@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ThePonyPicker
 {
     partial class Form1
     {

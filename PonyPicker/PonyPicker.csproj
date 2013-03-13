@@ -7,8 +7,8 @@
     <ProjectGuid>{75C82F5C-CAFD-4E20-BA01-45B6025B2955}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
-    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <RootNamespace>ThePonyPicker</RootNamespace>
+    <AssemblyName>ThePonyPicker</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -83,7 +84,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\bigmac.jpg" />
+    <Content Include="assets\changelings.jpg" />
+    <Content Include="assets\minty.jpg" />
+    <Content Include="assets\queen.jpg" />
     <Content Include="assets\scootaloo.png" />
+    <Content Include="assets\shining.jpg" />
+    <Content Include="assets\snips.jpeg" />
     <Content Include="assets\sweety.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

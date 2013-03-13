@@ -52,5 +52,59 @@
     "Saying": "Radicalness!",
     "Picture": "..\\..\\assets\\dash.png",
     "BackgroundColor": "DarkRed"
+  },
+  {
+    "Name": "Shining Armor",
+    "Saying": "I love you twily <3<3<3",
+    "Picture": "..\\..\\assets\\shining.jpg",
+    "BackgroundColor": "White"
+  },
+  {
+    "Name": "Big Macintosh",
+    "Saying": "YUP",
+    "Picture": "..\\..\\assets\\bigmac.jpg",
+    "BackgroundColor": "Red"
+  },
+  {
+    "Name": "Queen Chrysalis",
+    "Saying": "You can run, but you can't hide",
+    "Picture": "..\\..\\assets\\queen.jpg",
+    "BackgroundColor": "Black"
+  },
+  {
+    "Name": "The Changelings",
+    "Saying": "HAHAHAHAHA",
+    "Picture": "..\\..\\assets\\changelings.jpg",
+    "BackgroundColor": "Black"
+  },
+  {
+    "Name": "Snips and Snails",
+    "Saying": "Snails!",
+    "Picture": "..\\..\\assets\\snips.jpeg",
+    "BackgroundColor": "Green"
+  },
+  {
+    "Name": "Minty",
+    "Saying": "I love mint",
+    "Picture": "..\\..\\assets\\minty.jpg",
+    "BackgroundColor": "White"
+  },
+  {
+    "Name": "Dischord",
+    "Saying": "You should see your face",
+    "Picture": "..\\..\\assets\\dischord.jpg",
+    "BackgroundColor": "Gray"
+  },
+  {
+    "Name": "Nightmare Moon",
+    "Saying": "No sun for you",
+    "Picture": "..\\..\\assets\\moon.gif",
+    "BackgroundColor": "Black"
+  },
+  {
+    "Name": "Zakora",
+    "Saying": "Focus",
+    "Picture": "..\\..\\assets\\zakora.jpg",
+    "BackgroundColor": "HotPink"
   }
 ]
