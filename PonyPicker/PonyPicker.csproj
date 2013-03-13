@@ -86,12 +86,15 @@
   <ItemGroup>
     <Content Include="assets\bigmac.jpg" />
     <Content Include="assets\changelings.jpg" />
+    <Content Include="assets\dischord.jpg" />
     <Content Include="assets\minty.jpg" />
+    <Content Include="assets\moon.gif" />
     <Content Include="assets\queen.jpg" />
     <Content Include="assets\scootaloo.png" />
     <Content Include="assets\shining.jpg" />
     <Content Include="assets\snips.jpeg" />
     <Content Include="assets\sweety.png" />
+    <Content Include="assets\zakora.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
