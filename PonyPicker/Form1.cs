@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Media;
 using System.Linq;
 using System.Windows.Forms;
+using System.IO;
+using WMPLib;
 
 namespace ThePonyPicker
 {
@@ -15,6 +17,10 @@ namespace ThePonyPicker
 
 
             LoadPonies();
+
+            var player = new WindowsMediaPlayer();
+            player.URL = @"C:\Solutions\Dustin\ponypicker\PonyPicker\assets\equestria girls.mp3";
+            player.controls.play();
         }
 
         private void LoadPonies()
@@ -57,12 +63,18 @@ namespace ThePonyPicker
             if (pony == null)
                 return;
 
-            this.saying.Text = pony.Saying;
+            this.saying.Text = pony.Name + " says\r" + pony.Saying;
             this.BackColor = pony.BackgroundColor;
             this.pictureBox1.ImageLocation = pony.Picture;
 
+            var img = Image.FromFile(pony.Picture);
+            
+            this.pictureBox1.Size = new Size(img.Width, img.Height);
+            this.Size = new Size(200 + img.Width, 200 + img.Height);
+            
+
             SystemSounds.Asterisk.Play();
-            LoadPonies();
+            //LoadPonies();
 
             if (this.BackColor == Color.Black)
                 this.label1.ForeColor = Color.White;

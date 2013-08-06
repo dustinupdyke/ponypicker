@@ -90,7 +90,7 @@ namespace ThePonyPicker
             pony.Name = "Rainbow Dash";
             pony.Saying = "Radicalness!";
             pony.Picture = @"..\..\assets\dash.png";
-            pony.BackgroundColor = Color.DarkRed;
+            pony.BackgroundColor = Color.MintCream;
             ponies.Add(pony);
             PonyManager.Save(ponies);
         }

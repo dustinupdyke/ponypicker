@@ -78,7 +78,7 @@
     "BackgroundColor": "Black"
   },
   {
-    "Name": "Snips and Snails",
+    "Name": "Snips",
     "Saying": "Snails!",
     "Picture": "..\\..\\assets\\snips.jpeg",
     "BackgroundColor": "Green"
@@ -106,5 +106,41 @@
     "Saying": "Focus",
     "Picture": "..\\..\\assets\\zakora.jpg",
     "BackgroundColor": "HotPink"
+  },
+  {
+    "Name": "Fluttershy",
+    "Saying": "I love animals",
+    "Picture": "..\\..\\assets\\fluttershy.png",
+    "BackgroundColor": "HotPink"
+  },
+  {
+    "Name": "Sunset Shimmer",
+    "Saying": "I take the crown, you don't!",
+    "Picture": "..\\..\\assets\\sunset_shimmer.png",
+    "BackgroundColor": "Orange"
+  },
+  {
+    "Name": "Snails",
+    "Saying": "I am slow",
+    "Picture": "..\\..\\assets\\snails.png",
+    "BackgroundColor": "MintCream"
+  },
+  {
+    "Name": "Sapphire Shores",
+    "Saying": "SPARKLY",
+    "Picture": "..\\..\\assets\\Sapphire_Shores.png",
+    "BackgroundColor": "MintCream"
+  },
+  {
+    "Name": "Spike",
+    "Saying": "Yes sir, maam sir",
+    "Picture": "..\\..\\assets\\spike.png",
+    "BackgroundColor": "Purple"
+  },
+  {
+    "Name": "Apple Jack",
+    "Saying": "Yee haw",
+    "Picture": "..\\..\\assets\\apple_jack.gif",
+    "BackgroundColor": "Goldenrod"
   }
 ]
