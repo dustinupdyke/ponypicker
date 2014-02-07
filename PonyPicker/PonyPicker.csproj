@@ -89,6 +89,8 @@
     <Content Include="assets\apple_jack.gif" />
     <Content Include="assets\baba.jpg" />
     <Content Include="assets\bigmac.jpg" />
+    <Content Include="assets\cake_twins.jpg" />
+    <Content Include="assets\Carrot_Cake.png" />
     <Content Include="assets\changelings.jpg" />
     <Content Include="assets\dash.png" />
     <Content Include="assets\diamond.jpg" />
@@ -97,6 +99,7 @@
     <Content Include="assets\minty.jpg" />
     <Content Include="assets\moon.gif" />
     <Content Include="assets\equestria girls.mp3" />
+    <Content Include="assets\MrsCake.png" />
     <Content Include="assets\pinkie.png" />
     <Content Include="assets\queen.jpg" />
     <Content Include="assets\rarity.png" />
@@ -109,6 +112,7 @@
     <Content Include="assets\Sunset_shimmer.png" />
     <Content Include="assets\sweety.png" />
     <Content Include="assets\twilight.png" />
+    <Content Include="assets\twilight_and_comet_tail.png" />
     <Content Include="assets\zakora.jpg" />
   </ItemGroup>
   <ItemGroup>

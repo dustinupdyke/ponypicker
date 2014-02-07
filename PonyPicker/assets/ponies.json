@@ -142,5 +142,33 @@
     "Saying": "Yee haw",
     "Picture": "..\\..\\assets\\apple_jack.gif",
     "BackgroundColor": "Goldenrod"
+  },
+  {
+    "Name": "Mrs. Cake",
+    "Saying": "Here is your order!",
+    "Picture": "..\\..\\assets\\mrsCake.png",
+    "BackgroundColor": "Pink"
+  },
+  {
+    "Name": "Mr. Carrot Cake",
+    "Saying": "Your order is up!",
+    "Picture": "..\\..\\assets\\carrot_cake.png",
+    "BackgroundColor": "Orange"
+  },
+  {
+    "Name": "Cake Twins",
+    "Saying": "Waaaaaaaa",
+    "Picture": "..\\..\\assets\\cake_twins.jpg",
+    "BackgroundColor": "Yellow"
+  },
+  {
+    "Name": "Comet Tail",
+    "Saying": "Hello Twilight!",
+    "Picture": "..\\..\\assets\\twilight_and_comet_tail.png",
+    "BackgroundColor": "Red"
   }
+
+
+  
+
 ]
